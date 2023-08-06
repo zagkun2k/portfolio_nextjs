@@ -1,0 +1,42 @@
+.container {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 14px;
+  /* transition: color 2s ease; */
+  animation: colorChange 5s infinite;
+}
+
+@keyframes colorChange {
+  0% {
+    color: #bbb;
+  }
+  50% {
+    color: #194c33;
+  }
+  100% {
+    color: #bbb;
+  }
+}
+
+.logoutButton {
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(28, 111, 84);
+  border-radius: 3px;
+  color: white;
+}

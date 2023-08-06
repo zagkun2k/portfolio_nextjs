@@ -1,0 +1,84 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.imageBlock {
+  flex: 1;
+  width: 96%;
+  height: 393px;
+  position: relative;
+  margin-left: 50px;
+}
+
+.items {
+  display: flex;
+  gap: 60px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.textInput {
+  border: 2px solid white;
+  padding: 4px;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: inherit;
+  color: inherit;
+  height: 52px;
+  border-radius: 5px;
+  width: 500px;
+  margin-bottom: 19px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.textarea {
+  border: 2px solid white;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: inherit;
+  height: 52px;
+  border-radius: 5px;
+  width: 500px;
+  height: 250px;
+  color: inherit;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.image {
+  object-fit: contain;
+  animation: move 3s infinite ease alternate;
+}
+
+@keyframes move {
+  from {
+    transform: translateY(-15px);
+  }
+  to {
+    transform: translateY(0px) scale(1.03);
+  }
+}
+
+.button {
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #53c28b;
+  color: white;
+  padding: 10px 30px;
+  margin-top: 8px;
+}
+
+.form {
+  flex: 1;
+}

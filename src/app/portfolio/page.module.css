@@ -1,0 +1,76 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: space-between;
+  margin-left: 70px;
+}
+
+.title {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.option {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.linkTitleIllustration {
+  position: absolute;
+  font-size: 20px;
+  font-weight: 600;
+  right: 83px;
+  bottom: 3px;
+}
+
+.linkTitleWebsites {
+  position: absolute;
+  font-size: 20px;
+  font-weight: 600;
+  right: 96px;
+  bottom: 3px;
+}
+
+.linkTitleApplications {
+  position: absolute;
+  font-size: 20px;
+  font-weight: 600;
+  right: 65px;
+  bottom: 3px;
+}
+
+.content {
+  border: 2px solid #bbb;
+  border-radius: 5px;
+}
+
+.items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  width: 60% !important;
+}
+
+.link {
+  position: absolute;
+  /* margin: 248px 0px 0px 8px; */
+  padding: 138px 96px;
+  margin: 0px 1px;
+}
+
+.content {
+  width: 520px;
+  height: 280px;
+  position: relative;
+}
+
+.image {
+  object-fit: cover;
+}
+
+.link:hover {
+  color: #53c28b;
+}

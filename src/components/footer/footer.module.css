@@ -1,0 +1,25 @@
+.container {
+  height: 50px;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.imgContainer {
+  height: 15px;
+  width: 15px;
+  position: relative;
+}
+
+.groupLink {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  margin-right: 10px !important;
+}
+
+.logo {
+  opacity: 0.8;
+  cursor: pointer;
+}
